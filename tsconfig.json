@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true, /* Emit design-type metadata for decorated declarations in source files. */
+    "experimentalDecorators": true, /* Enable experimental support for TC39 stage 2 draft decorators. */
+    "module": "commonjs", /* Specify what module code is generated. */
+    "moduleResolution": "node",
+    "outDir": "dist/src", /* Specify an output folder for all emitted files. */
+    "sourceMap": true, /* Create source map files for emitted JavaScript files. */
+    "target": "es2017", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+  },
+  "include": ["src/**/*.ts", "src/ormconfig.js"],
+  "exclude": [
+    "./node_modules",
+    "./dist",
+    "src/**/*.spec.ts"
+  ]
+}

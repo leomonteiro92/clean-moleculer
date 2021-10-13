@@ -1,0 +1,15 @@
+[
+    {
+        "name": "default",
+        "type": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "username": "moleculer",
+        "password": "m013cu13r",
+        "database": "core",
+        "entities": [
+            "**/*.typeorm.entity{.ts,.js}"
+        ],
+        "synchronize": true
+    }
+]
